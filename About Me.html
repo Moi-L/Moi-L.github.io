@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+	<!-- /Font -->
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/675adce32c.js" crossorigin="anonymous"></script>
+	<title>About Me</title>
+</head>
+<body>
+	<section class="header2">
+		<nav>
+			<a href="index.html"><img src=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="far fa-window-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About Me.html">ABOUT ME</a></li>
+					<li><a href="Contact Me.html">CONTACT</a></li>
+					
+				</ul>
+			</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+	<section class="aboutMe">
+		<h1>About Me</h1>
+		<h2>Hello! I'm Maui Azryl, but you can call me Moi, though I do prefer to be called Maui.
+			<br>
+		I am 19 years old and currently enrolled as a First Year in Bachelor of Science in Computer Science at Palawan State University. I dream of being a successful programmer someday. However, I do not define 'successful' as having absurd amount of money before I retire, I define it as being happy on my job and sustaining me, my current family, and my future one and giving them the life they deserve.
+			<br><br>
+		By the way, here are some of my hobbies if you're interested:
+		</h2>
+
+		<div class="row">
+			<div class="col">
+				<h3>Playing Video Games</h3>
+				<p>I love playing video games during my free time. I play exclusively on pc and I like the genres fps, moba, and survival games the most. In my experience, playing with friends makes the game way more fun.</p>
+			</div>
+			<div class="col">
+				<h3>Watching Anime and Movies</h3>
+				<p>I like to watch anime shows though not a lot these days. My favorite shows are Jujutsu Kaisen, Shingeki no Kyojin and etc. Like most people, I like to watch movies.</p>
+			</div>
+			<div class="col">
+				<h3>Browsing Memes</h3>
+				<p>I love browsing memes on the internet. I find myself browsing for hours finding memes when using social media or watching videos on youtube.</p>
+			</div>
+		</div>
+	</section>
+</section>
+
+	<script type="text/javascript">
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>

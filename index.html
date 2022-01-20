@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+	<!-- /Font -->
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/675adce32c.js" crossorigin="anonymous"></script>
+	<title>Home</title>
+</head>
+<body>
+	<section class="header1">
+		<nav>
+			<a href="index.html"><img src=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="far fa-window-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About Me.html">ABOUT ME</a></li>
+					<li><a href="Contact Me.html">CONTACT</a></li>
+					
+				</ul>
+			</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<div class="text-box">
+		<p>BSCS 1 - B1</p>
+		<h1>Maui Azryl M. Lomuntad</h1>
+
+	</div>
+	</section>
+
+
+	<script type="text/javascript">
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+</body>
+</html>
